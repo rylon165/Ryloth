@@ -10,5 +10,7 @@ package javaapplication17;
  * @author 4100887818
  */
 public class Loginon {
-    
+    public Loginon (){
+    // this is a constructor
+    }
 }
