@@ -10,7 +10,34 @@ package javaapplication17;
  * @author 4100887818
  */
 public class Loginon {
-    public Loginon (){
-    // this is a constructor
+    private String name;
+    private String lastName;
+    private String password;
+    /**
+     * @return the name
+     */
+    public String getName() {
+        return name;
     }
+
+    /**
+     * @return the lastName
+     */
+    public String getLastName() {
+        return lastName;
+    }
+
+    /**
+     * @param password the password to set
+     */
+    public void setPassword(String password) {
+        this.password = password;
+    }
+    public void loginDetails(String name, String password){
+    System.out.println("User: "+name+"");
+    System.out.println("Password: "+password+"");
+    
+    }
+    
 }
+    
