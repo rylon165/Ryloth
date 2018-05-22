@@ -35,8 +35,7 @@ public class Loginon {
     }
     public void loginDetails(String name, String password){
     System.out.println("User: "+name+"");
-    System.out.println("Password: "+password+"");
-    
+    System.out.println("Password: "+password+"");   
     }
     
 }
